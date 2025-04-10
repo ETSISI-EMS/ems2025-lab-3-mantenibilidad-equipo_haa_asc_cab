@@ -36,7 +36,7 @@ jobs:
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
-        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=${{ secrets.PROJECT_ID }} -Dsonar.projectName='${{ secrets.PROJECT_NAME }}'
+        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=${{ secrets.PROJECT_ID }} -Dsonar.projectName='${{ secrets.PROJECT_NAME }}' -Dsonar.qualitygate.wait=true
       - name: Query status
         id: qgStatus
         uses: fjogeleit/http-request-action@v1.15.2
