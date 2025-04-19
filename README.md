@@ -1,4 +1,4 @@
-:point_right: PUT YOUR CI BADGE HERE
+[![Quality Gate Status](http://c1.etsisi.upm.es:8888/api/project_badges/measure?project=ETSISI-EMS_ems2025-lab-3-mantenibilidad-equipo_haa_asc_cab_7fe06256-5588-46dd-98f1-665129c8b871&metric=alert_status&token=sqb_0c536db8efcc1e8ce786f86d446736c9cf66788e)](http://c1.etsisi.upm.es:8888/dashboard?id=ETSISI-EMS_ems2025-lab-3-mantenibilidad-equipo_haa_asc_cab_7fe06256-5588-46dd-98f1-665129c8b871)
 
 # EMS-lab3 Maintainability
 
