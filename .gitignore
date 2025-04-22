@@ -46,3 +46,5 @@ out/
 *.iml
 *.ipr
 *.iws
+
+.sonarlint/*
